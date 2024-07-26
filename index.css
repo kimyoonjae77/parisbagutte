@@ -1439,12 +1439,12 @@ footer .footer_box address {
     }
 
     section .main1 .main1_box h1 {
-        font-size: 4vw;
+        font-size: 30pt;
 
     }
 
     section .main1 .main1_box p {
-        font-size: 3vw;
+        font-size: 20pt;
     }
 
     section .menu {
@@ -1721,10 +1721,103 @@ footer .footer_box address {
     }
 
     footer .footer_box address {
-        font-size: 1.5vw;
+        font-size: 12pt;
     }
 }
 
+@media all and (max-width:500px) {
+    section .menu {
+        height: 600px;
+    }
+
+    section .menu_txt {
+        padding-top: 30px;
+    }
+
+    section .menu_box {
+        margin-top: 50px;
+    }
+
+    section .menu .go_box {
+        margin-top: 30px;
+    }
+
+    section .main1 .main1_box {
+        top: 450px;
+    }
+
+    section .brand_franchise {
+        height: 1000px;
+    }
+
+    section .brand_franchise .brand_box .left_box {
+        margin: 0 auto;
+        min-width: 250px;
+        /* width: 0px; */
+    }
+
+    section .brand_franchise .franchise_box .right_box {
+        margin: 0 auto;
+        min-width: 250px;
+    }
+
+    section .search_store {
+        height: 300px;
+    }
+
+    section .search_store .bgi_box {
+        top: -460px;
+    }
+
+    section .search_store .bgi_box h1 {
+        font-size: 25pt;
+        margin-top: 20%;
+        width: 300px;
+    }
+
+    section .search_store .bgi_box h1::after {
+        right
+    }
+
+    section .search_store .bgi_box p {
+        font-size: 16pt;
+        margin: 15px 0;
+    }
+
+    section .search_store .bgi_box .radi_box4 {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    section .search_store .bgi_box .radi_box4::after {
+        right: 15px;
+        top: 10px;
+    }
+
+    section .search_store .bgi_box>a .radi_box4>i {
+        top: 15px;
+        right: 22px;
+    }
+
+
+
+    section .promo {
+        height: 650px;
+    }
+
+    section .story_magazine .story_box .story_content>li>p {
+        height: 70px;
+        font-size: 4vw;
+    }
+
+    footer .div_footer_menu>dl:nth-child(2)>dd:nth-child(4) {
+        font-size: 11pt;
+    }
+
+    footer .footer_box address {
+        font-size: 10pt;
+    }
+}
 
 /* menu반응형 */
 @media all and (max-width:1853px) {

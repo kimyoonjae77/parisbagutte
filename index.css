@@ -1785,6 +1785,18 @@ footer .footer_box address {
     }
 }
 
+@media all and (max-width:550px) {
+    section .search_store {
+        height: 300px;
+    }
+
+    section .promo {
+        height: 600px;
+    }
+
+    section .promo_txt h1 {}
+}
+
 @media all and (max-width:500px) {
     section .menu {
         height: 600px;

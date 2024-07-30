@@ -1264,7 +1264,7 @@ footer .footer_box address {
 
     section .story_magazine {
         width: 100%;
-        height: 150vh;
+        height: 1000px;
     }
 
     section .story_magazine .magazine_left_box {
@@ -1276,9 +1276,11 @@ footer .footer_box address {
     }
 
     section .story_magazine .magazine_left_box>h1 {
-        left: 0;
-        top: 0;
+        left: 50%;
+        /* transform: translateX(-50%); */
+        top: 100px;
         /* margin: 0 auto; */
+        font-size: 150pt;
     }
 
     section .story_magazine .story_menu {
@@ -1479,7 +1481,7 @@ footer .footer_box address {
     }
 
     section .brand_franchise {
-        height: 1300px;
+        height: 1400px;
     }
 
     section .brand_franchise .brand_box {
@@ -1575,12 +1577,12 @@ footer .footer_box address {
     section .search_store .bgi_box {
         /* height: 00px; */
         background-size: 100%;
-        top: -400px;
+        top: -500px;
     }
 
     section .search_store .bgi_box h1 {
         font-size: 30pt;
-        margin-top: 7%;
+        margin-top: 12%;
         width: 350px;
     }
 
@@ -1590,6 +1592,7 @@ footer .footer_box address {
 
     section .search_store .bgi_box p {
         font-size: 18pt;
+        margin: 20px 0;
     }
     section .search_store .bgi_box .radi_box4::after{
         display: none;
@@ -1598,7 +1601,7 @@ footer .footer_box address {
         display: none;
     }
     section .promo {
-        height: 120vh;
+        height: 800px;
     }
 
     section .promo_txt h1 {
@@ -1731,7 +1734,30 @@ footer .footer_box address {
         font-size: 12pt;
     }
 }
-
+@media all and (max-width:709px){
+    section .brand_franchise {
+        height: 1300px;
+    }
+}
+@media all and (max-width:659px){
+    section .brand_franchise {
+        height: 1250px;
+    }
+}
+@media all and (max-width:600px){
+    section .brand_franchise {
+        height: 1150px;
+    }
+}
+@media all and (max-width:580px){
+    section .search_store .bgi_box p {
+        /* font-size: 18pt; */
+        margin: 5px 0;
+    }
+    section .search_store .bgi_box h1{
+        margin-top: 20%;
+    }
+}
 @media all and (max-width:500px) {
     section .menu {
         height: 600px;

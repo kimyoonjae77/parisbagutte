@@ -240,6 +240,11 @@ header .ob_menu .hamburg_gnb>li:hover .hamburg_gnb_box {
 header .ob_menu .hamburg_gnb>li:hover>p {
     font-weight: bold;
     cursor: pointer;
+    /* font-size: 1.5em; */
+}
+
+header .ob_menu .hamburg_gnb>li {
+    font-size: 1.5em;
 }
 
 header .ob_menu .hamburg_menu .hamburg_gnb>li>a {
@@ -258,15 +263,16 @@ header .ob_menu .hamburg_menu .hamburg_gnb .hamburg_gnb_box {
     /* position: absolute; */
     /* right: 200px; */
     top: 0;
+    line-height: 35px;
     /* z-index: 51; */
 }
 
 header .ob_menu .hamburg_menu .hamburg_gnb .hamburg_gnb_box>li>a {
     display: block;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
-header .ob_menu .hamburg_follow_us {
+/* header .ob_menu .hamburg_follow_us {
     display: none;
     position: absolute;
     right: 20px;
@@ -279,7 +285,7 @@ header .ob_menu .hamburg_follow_us>dt {
     bottom: 155px;
     right: -120px;
     width: 180px;
-}
+} */
 
 
 /* ---------main1 */

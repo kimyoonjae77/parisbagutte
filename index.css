@@ -1406,13 +1406,15 @@ footer .footer_box address {
     header .header_margin {}
 
     header h1 {
-        margin-left: 1%;
+        /* margin-left: 1%; */
     }
 
     header>h1 .white_txt {
-        margin-left: 0.5%;
+        /* margin-left: 0.5%; */
     }
-
+    header .logo img{
+        transform: scale(0.8);
+    }
     header .logo .white_txt {
         font-size: 18pt;
     }
@@ -1589,7 +1591,12 @@ footer .footer_box address {
     section .search_store .bgi_box p {
         font-size: 18pt;
     }
-
+    section .search_store .bgi_box .radi_box4::after{
+        display: none;
+    }
+    section .search_store .bgi_box>a .radi_box4>i{
+        display: none;
+    }
     section .promo {
         height: 120vh;
     }
@@ -1818,7 +1825,47 @@ footer .footer_box address {
         font-size: 10pt;
     }
 }
-
+@media all and (max-width:362px){
+    section .menu{
+        height: 500px;
+    }
+    section .brand_franchise{
+        height: 900px;
+    }
+    section .search_store .bgi_box{
+        top: -500px;
+    }
+    section .search_store .bgi_box p{
+        margin: 10px 0;
+    }
+    section .search_store .bgi_box h1 {
+        margin-top: 32%;
+    }
+    section .search_store .bgi_box .radi_box4{
+        height: 30px;
+        line-height: 30px;
+    }
+    section .promo_txt{
+        margin-top: -100px;
+    }
+    section .story_magazine{
+        height: 600px;
+    }
+    section .story_magazine .magazine_left_box>h1{
+        top: 20px;
+    }
+    section .story_magazine .story_menu{
+        margin-left: ;
+        padding-top: 30px;
+    }
+    section .story_magazine .story_box .story_content{
+        padding-top: 130px;
+        /* transform: scale(0.9); */
+    }
+    section .story_magazine .story_box .story_content>li{
+        /* width: 100px; */
+    }
+}
 /* menu반응형 */
 @media all and (max-width:1853px) {
     section .menu .menu_box>li:nth-child(5) {
@@ -1832,6 +1879,7 @@ footer .footer_box address {
         display: none;
     }
 }
+
 
 /* -------promo 반응형 */
 @media all and (max-width:1847px) {

@@ -240,11 +240,6 @@ header .ob_menu .hamburg_gnb>li:hover .hamburg_gnb_box {
 header .ob_menu .hamburg_gnb>li:hover>p {
     font-weight: bold;
     cursor: pointer;
-    /* font-size: 1.5em; */
-}
-
-header .ob_menu .hamburg_gnb>li {
-    font-size: 1.5em;
 }
 
 header .ob_menu .hamburg_menu .hamburg_gnb>li>a {
@@ -263,16 +258,15 @@ header .ob_menu .hamburg_menu .hamburg_gnb .hamburg_gnb_box {
     /* position: absolute; */
     /* right: 200px; */
     top: 0;
-    line-height: 35px;
     /* z-index: 51; */
 }
 
 header .ob_menu .hamburg_menu .hamburg_gnb .hamburg_gnb_box>li>a {
     display: block;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
-/* header .ob_menu .hamburg_follow_us {
+header .ob_menu .hamburg_follow_us {
     display: none;
     position: absolute;
     right: 20px;
@@ -285,7 +279,7 @@ header .ob_menu .hamburg_follow_us>dt {
     bottom: 155px;
     right: -120px;
     width: 180px;
-} */
+}
 
 
 /* ---------main1 */
@@ -863,10 +857,15 @@ footer .div_footer_menu>dl:nth-child(3)>dd {
     overflow: hidden;
 }
 
+footer .footer_box {
+    margin: 0 auto;
+}
+
 footer .footer_box .up_box {
     margin: 0 auto;
     margin-top: 100px;
     position: relative;
+    text-align: center;
 }
 
 footer .footer_box .up_box a {
@@ -897,7 +896,7 @@ footer .footer_box .up_box img:nth-child(5) {
     margin: 0 20px;
     position: absolute;
     top: -10px;
-    left: 610px;
+    left: 65%;
     /* background-color: red; */
 }
 
@@ -905,7 +904,7 @@ footer .footer_box .up_box img:nth-child(6) {
     margin: 0 20px;
     position: absolute;
     top: -10px;
-    left: 710px;
+    left: 70%;
     /* background-color: red; */
 }
 
@@ -1076,7 +1075,7 @@ footer .footer_box address {
     }
 
     footer .footer_box .up_box {
-        margin-left: 28%;
+        /* margin-left: 28%; */
         /* margin-top: 100px; */
         /* margin: 0 auto; */
         position: relative;
@@ -1270,7 +1269,7 @@ footer .footer_box address {
 
     section .story_magazine {
         width: 100%;
-        height: 1000px;
+        height: 150vh;
     }
 
     section .story_magazine .magazine_left_box {
@@ -1282,11 +1281,9 @@ footer .footer_box address {
     }
 
     section .story_magazine .magazine_left_box>h1 {
-        left: 50%;
-        /* transform: translateX(-50%); */
-        top: 100px;
+        left: 0;
+        top: 0;
         /* margin: 0 auto; */
-        font-size: 150pt;
     }
 
     section .story_magazine .story_menu {
@@ -1401,7 +1398,7 @@ footer .footer_box address {
     }
 
     footer .footer_box .up_box {
-        margin-left: 28%;
+        /* margin-left: 28%; */
         /* margin-top: 100px; */
         /* margin: 0 auto; */
         position: relative;
@@ -1414,15 +1411,11 @@ footer .footer_box address {
     header .header_margin {}
 
     header h1 {
-        /* margin-left: 1%; */
+        margin-left: 1%;
     }
 
     header>h1 .white_txt {
-        /* margin-left: 0.5%; */
-    }
-
-    header .logo img {
-        transform: scale(0.8);
+        margin-left: 0.5%;
     }
 
     header .logo .white_txt {
@@ -1489,7 +1482,7 @@ footer .footer_box address {
     }
 
     section .brand_franchise {
-        height: 1400px;
+        height: 1300px;
     }
 
     section .brand_franchise .brand_box {
@@ -1585,12 +1578,12 @@ footer .footer_box address {
     section .search_store .bgi_box {
         /* height: 00px; */
         background-size: 100%;
-        top: -500px;
+        top: -400px;
     }
 
     section .search_store .bgi_box h1 {
         font-size: 30pt;
-        margin-top: 12%;
+        margin-top: 7%;
         width: 350px;
     }
 
@@ -1600,19 +1593,10 @@ footer .footer_box address {
 
     section .search_store .bgi_box p {
         font-size: 18pt;
-        margin: 20px 0;
-    }
-
-    section .search_store .bgi_box .radi_box4::after {
-        display: none;
-    }
-
-    section .search_store .bgi_box>a .radi_box4>i {
-        display: none;
     }
 
     section .promo {
-        height: 800px;
+        height: 120vh;
     }
 
     section .promo_txt h1 {
@@ -1746,63 +1730,6 @@ footer .footer_box address {
     }
 }
 
-@media all and (max-width:709px) {
-    section .brand_franchise {
-        height: 1300px;
-    }
-}
-
-@media all and (max-width:659px) {
-    section .brand_franchise {
-        height: 1250px;
-    }
-}
-
-@media all and (max-width:600px) {
-    section .brand_franchise {
-        height: 1150px;
-    }
-}
-
-@media all and (max-width:580px) {
-    section .menu {
-        height: 550px;
-    }
-
-    section .menu_txt {
-        padding-top: 40px;
-    }
-
-    section .menu_box {
-        margin-top: 30px;
-    }
-
-    section .menu .go_box {
-        margin-top: 40px;
-    }
-
-    section .search_store .bgi_box p {
-        /* font-size: 18pt; */
-        margin: 5px 0;
-    }
-
-    section .search_store .bgi_box h1 {
-        margin-top: 20%;
-    }
-}
-
-@media all and (max-width:550px) {
-    section .search_store {
-        height: 300px;
-    }
-
-    section .promo {
-        height: 600px;
-    }
-
-    section .promo_txt h1 {}
-}
-
 @media all and (max-width:500px) {
     section .menu {
         height: 600px;
@@ -1897,59 +1824,6 @@ footer .footer_box address {
     }
 }
 
-@media all and (max-width:362px) {
-    section .menu {
-        height: 500px;
-    }
-
-    section .brand_franchise {
-        height: 900px;
-    }
-
-    section .search_store .bgi_box {
-        top: -500px;
-    }
-
-    section .search_store .bgi_box p {
-        margin: 10px 0;
-    }
-
-    section .search_store .bgi_box h1 {
-        margin-top: 32%;
-    }
-
-    section .search_store .bgi_box .radi_box4 {
-        height: 30px;
-        line-height: 30px;
-    }
-
-    section .promo_txt {
-        margin-top: -100px;
-    }
-
-    section .story_magazine {
-        height: 600px;
-    }
-
-    section .story_magazine .magazine_left_box>h1 {
-        top: 20px;
-    }
-
-    section .story_magazine .story_menu {
-        margin-left: ;
-        padding-top: 30px;
-    }
-
-    section .story_magazine .story_box .story_content {
-        padding-top: 130px;
-        /* transform: scale(0.9); */
-    }
-
-    section .story_magazine .story_box .story_content>li {
-        /* width: 100px; */
-    }
-}
-
 /* menu반응형 */
 @media all and (max-width:1853px) {
     section .menu .menu_box>li:nth-child(5) {
@@ -1963,7 +1837,6 @@ footer .footer_box address {
         display: none;
     }
 }
-
 
 /* -------promo 반응형 */
 @media all and (max-width:1847px) {

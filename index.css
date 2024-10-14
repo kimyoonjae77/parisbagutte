@@ -758,7 +758,7 @@ section .story_magazine {
     background-color: #2a56b6;
     position: relative;
     display: flex;
-    height: 900px;
+    height: 1000px;
     overflow: hidden;
 }
 
@@ -849,27 +849,27 @@ footer .div_footer_menu {
     margin-top: -140px;
 }
 
-footer .div_footer_menu>dl {
+footer .div_footer_menu dl {
     margin: 0 40px;
 }
 
-footer .div_footer_menu>dl>dt {
+footer .div_footer_menu dl dt {
     font-weight: bold;
     margin-bottom: 10pt;
     color: white;
 }
 
-footer .div_footer_menu>dl>dd {
+footer .div_footer_menu dl dd {
     margin: 5px 0;
     font-weight: 300pt;
     color: white;
 }
 
-footer .div_footer_menu>dl>dd>a {
+footer .div_footer_menu dl dd a {
     color: white;
 }
 
-footer .div_footer_menu>dl:nth-child(3) {
+footer .div_footer_menu dl:nth-child(3) {
     margin-left: 280px;
 }
 
@@ -877,20 +877,27 @@ footer .div_footer_menu>dl:nth-child(3) {
     margin-bottom: 10px;
 } */
 
-footer .div_footer_menu>dl:nth-child(3)>dd {
+footer .div_footer_menu dl:nth-child(3) dd {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     overflow: hidden;
 }
 
+footer .footer_follow_us_box {
+    display: flex;
+    justify-content: space-around;
+    width: 120%;
+}
+
 footer .footer_box {
     margin: 0 auto;
 }
 
+
 footer .footer_box .up_box {
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 20px;
     position: relative;
     text-align: center;
 }

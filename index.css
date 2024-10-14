@@ -43,7 +43,7 @@ header {
     position: fixed;
     /* top: -110px; */
     left: 0;
-    z-index: 1;
+    z-index: 3;
 
 }
 
@@ -124,15 +124,42 @@ header .gnb>li:nth-child(2) .gnb_box {
 header .gnb .gnb_box>li {
     margin: 10px;
     height: 35px;
+    border-bottom: 1px solid transparent;
+    position: relative;
+    line-height: 35px;
 }
 
 header .gnb .gnb_box>li:hover {
-    background-color: rgb(36, 36, 162);
+    /* background-color: #4aa8d8; */
+    /* border-bottom: 1px solid #4aa8d8; */
+}
+
+header .gnb .gnb_box>li::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #4aa8d8;
+    transition: all 0.2s;
+    opacity: 0;
+}
+
+
+header .gnb .gnb_box>li:hover:after {
+    left: -10px;
+    /* display: block; */
+    opacity: 1;
 }
 
 header .gnb .gnb_box>li>a {
-    color: #616161;
-    font-size: 15pt;
+    color: #262626;
+    font-size: 13pt;
+    display: block;
 }
 
 header .gnb .fa-magnifying-glass {
@@ -661,7 +688,7 @@ section .promo_before_after li {
     z-index: 1;
 }
 
-/* ---------뻐킹 자바스크립트로 하기 뻐킹 디스랑 뭐어케어케해서 호버시 저거 아래 보이게*/
+/* ---------*/
 section .promo_before_after li:nth-child(1):after {
     content: "";
     display: none;
@@ -1010,8 +1037,8 @@ footer .footer_box address {
 
     section .story_magazine .magazine_left_box {
         position: absolute;
-        left: 20%;
-        transform: translateX(50%);
+        left: 50%;
+        transform: translateX(-50%);
         top: 5%;
         /* background-color: red; */
     }
@@ -1019,6 +1046,7 @@ footer .footer_box address {
     section .story_magazine .magazine_left_box>h1 {
         left: 0;
         top: -100px;
+        font-size: ;
         /* margin: 0 auto; */
     }
 
@@ -1132,8 +1160,12 @@ footer .footer_box address {
         /* height: 900px; */
     }
 
+    section .menu .menu_txt>h1 {
+        font-size: 3.5vw;
+    }
+
     section .menu .menu_txt>p {
-        font-size: 5vw;
+        font-size: 3vw;
 
     }
 
@@ -1363,8 +1395,9 @@ footer .footer_box address {
         }
 
         section .search_store .bgi_box h1::after {
-            right
+            right;
         }
+
 
         section .search_store .bgi_box p {
             font-size: 18pt;
@@ -1377,6 +1410,13 @@ footer .footer_box address {
         section .story_magazine .story_box .story_content>li>p {
             height: 70px;
             font-size: 1.9vw;
+        }
+
+        section .story_magazine .magazine_left_box>h1 {
+            font-size: 20vw;
+            top: 30%;
+            left: 100%;
+            transform: translatex(-50%);
         }
     }
 
@@ -1588,7 +1628,7 @@ footer .footer_box address {
     }
 
     section .search_store .bgi_box h1::after {
-        right
+        right;
     }
 
     section .search_store .bgi_box p {
